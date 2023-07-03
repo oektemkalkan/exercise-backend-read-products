@@ -9,7 +9,7 @@ const reviewSchema = new Schema({
 });
 
 const Review =
-  mongoose.models.Product ||
-  mongoose.model("Product", reviewSchema, "products");
+  mongoose.models.Review ||
+  mongoose.model("Review", reviewSchema);
 
 export default Review;

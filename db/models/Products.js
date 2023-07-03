@@ -12,6 +12,6 @@ const shopSchema = new Schema({
 });
 
 const Shop =
-  mongoose.models.Product || mongoose.model("Product", shopSchema, "products");
+  mongoose.models.Product || mongoose.model("Product", shopSchema);
 
 export default Shop;
